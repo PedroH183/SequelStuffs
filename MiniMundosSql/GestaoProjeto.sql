@@ -1,3 +1,5 @@
+CREATE DATABASE gestaoo_projeto;
+
 CREATE TABLE empregado(
     num_empregado SERIAL PRIMARY KEY,
     nome_empregado VARCHAR(255) NOT NULL,

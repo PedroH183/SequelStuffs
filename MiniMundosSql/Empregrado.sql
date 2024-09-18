@@ -1,3 +1,5 @@
+CREATE DATABASE empregado;
+
 CREATE TABLE empregado(
     cod_empregrado SERIAL PRIMARY KEY,
     nome VARCHAR(50) NOT NULL,

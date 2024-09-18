@@ -1,3 +1,5 @@
+CREATE DATABASE faturas;
+
 -- create a table
 CREATE TABLE fatura (
   id INTEGER PRIMARY KEY,

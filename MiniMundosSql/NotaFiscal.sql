@@ -1,3 +1,5 @@
+create database nota_fiscal;
+
 CREATE TABLE nota_fiscal(
     cod_fiscal SERIAL PRIMARY KEY,
     serie VARCHAR(20) NOT NULL,

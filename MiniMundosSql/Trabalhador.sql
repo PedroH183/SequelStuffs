@@ -1,3 +1,5 @@
+CREATE DATABASE trabalhador;
+
 CREATE TABLE empresa (
     num_empresa SERIAL PRIMARY KEY,
     nome_empresa VARCHAR(20) NOT NULL
