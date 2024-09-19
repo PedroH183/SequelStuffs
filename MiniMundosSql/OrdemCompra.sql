@@ -1,7 +1,7 @@
 CREATE DATABASE ordem_compra;
 
 CREATE TABLE material (
-id INT AUTO_INCREMENT PRIMARY KEY,
+	id INT AUTO_INCREMENT PRIMARY KEY,
 	FOREIGN KEY (fornecedor_id) REFERENCES fornecedor(id),
 	descricao VARCHAR(100) NOT NULL,
 	valor_unitario FLOAT(10,6) NOT NULL
